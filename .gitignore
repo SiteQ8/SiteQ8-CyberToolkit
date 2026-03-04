@@ -1,0 +1,17 @@
+# Reports (contain potentially sensitive scan data)
+reports/
+*.txt
+
+# Temp files
+/tmp/sq8_*
+*.log.bak
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor
+.vscode/
+.idea/
