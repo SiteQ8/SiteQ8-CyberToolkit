@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/web_fingerprint.sh — Web Technology Fingerprinter
+# modules/web_fingerprint.sh: Web Technology Fingerprinter
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

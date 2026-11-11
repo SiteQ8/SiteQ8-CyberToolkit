@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/port_scanner.sh — Advanced Port Scanner Module
+# modules/port_scanner.sh: Port Scanner Module
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

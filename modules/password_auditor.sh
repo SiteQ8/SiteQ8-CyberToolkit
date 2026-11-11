@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/password_auditor.sh — Password Strength & Policy Auditor
+# modules/password_auditor.sh: Password Strength & Policy Auditor
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

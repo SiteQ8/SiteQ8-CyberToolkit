@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/dns_enum.sh — DNS Enumeration Module
+# modules/dns_enum.sh: DNS Enumeration Module
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

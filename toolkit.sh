@@ -7,7 +7,7 @@
 #  ██████╔╝██║   ██║   ███████╗╚██████╔╝╚█████╔╝
 #  ╚═════╝ ╚═╝   ╚═╝   ╚══════╝ ╚══▀▀═╝  ╚════╝
 #
-#  SiteQ8 CyberToolkit — by SiteQ8
+#  SiteQ8 CyberToolkit by SiteQ8
 #  GitHub: https://github.com/SiteQ8
 #  License: MIT
 # =============================================================================

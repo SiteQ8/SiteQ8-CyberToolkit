@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/http_headers.sh — HTTP Security Headers Inspector
+# modules/http_headers.sh: HTTP Security Headers Inspector
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

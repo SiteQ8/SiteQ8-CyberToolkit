@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# lib/colors.sh — ANSI color definitions for SiteQ8 Toolkit
+# lib/colors.sh: ANSI color definitions for SiteQ8 Toolkit
 
 export RESET="\033[0m"
 export BOLD="\033[1m"

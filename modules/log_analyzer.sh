@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/log_analyzer.sh — Security Log Analyzer
+# modules/log_analyzer.sh: Security Log Analyzer
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

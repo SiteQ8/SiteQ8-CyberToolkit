@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/full_recon.sh — Full Automated Recon Suite
+# modules/full_recon.sh: Full Automated Recon Suite
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

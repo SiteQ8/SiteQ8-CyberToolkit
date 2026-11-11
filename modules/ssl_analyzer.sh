@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/ssl_analyzer.sh — SSL/TLS Security Analyzer
+# modules/ssl_analyzer.sh: SSL/TLS Security Analyzer
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"

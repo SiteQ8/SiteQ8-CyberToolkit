@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# lib/utils.sh — Shared utility functions for SiteQ8 Toolkit
+# lib/utils.sh: Shared utility functions for SiteQ8 Toolkit
 
 source "$(dirname "${BASH_SOURCE[0]}")/colors.sh"
 

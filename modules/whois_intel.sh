@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# modules/whois_intel.sh — Whois & IP Intelligence Module
+# modules/whois_intel.sh: Whois & IP Intelligence Module
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$SCRIPT_DIR/lib/colors.sh"
