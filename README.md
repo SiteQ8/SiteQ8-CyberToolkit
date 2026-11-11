@@ -1,4 +1,4 @@
-# SiteQ8 CyberToolkit 🔒
+# SiteQ8 CyberToolkit
 
 > A powerful, modular bash-based cybersecurity toolkit for ethical security assessment, recon, and analysis.
 
@@ -20,7 +20,7 @@
 
 ---
 
-## ⚠️ Legal Disclaimer
+## Legal Disclaimer
 
 > **This tool is for authorized security testing and educational purposes only.**  
 > Unauthorized scanning, probing, or attacking systems is illegal in most jurisdictions.  
@@ -28,7 +28,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Module | Description |
 |---|---|
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repo
@@ -68,7 +68,7 @@ chmod +x toolkit.sh modules/*.sh
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ### Required (minimal)
 | Tool | Purpose |
@@ -89,7 +89,7 @@ The toolkit gracefully falls back when optional tools are missing.
 
 ---
 
-## 🗂 File Structure
+## File Structure
 
 ```
 SiteQ8-CyberToolkit/
@@ -114,7 +114,7 @@ SiteQ8-CyberToolkit/
 
 ---
 
-## 📊 Report Output
+## Report Output
 
 Every module generates a timestamped report in `reports/`:
 
@@ -132,48 +132,48 @@ grep '\[FINDING\]' reports/full_recon_*.txt
 
 ---
 
-## 🧩 Module Details
+## Module Details
 
-### 🔍 Port Scanner
+### Port Scanner
 - Uses **nmap** (preferred) with service version detection
-- Falls back to pure **bash /dev/tcp** scanner — no dependencies required
+- Falls back to pure **bash /dev/tcp** scanner: no dependencies required
 - Detects and warns on high-risk open ports (RDP, MongoDB, SMB, etc.)
-- Modes: Common ports | Full 1–65535 | Custom range
+- Modes: Common ports | Full 1-65535 | Custom range
 
-### 🧬 DNS Enumerator
+### DNS Enumerator
 - Checks A, AAAA, MX, NS, TXT, CNAME, SOA records
 - SPF `+all` detection (mail spoofing risk)
 - DMARC presence and enforcement level
 - **Zone transfer (AXFR)** attempt against all nameservers
 - Reverse PTR lookup
 
-### 🔐 SSL/TLS Analyzer
+### SSL/TLS Analyzer
 - Certificate details: subject, issuer, SANs, serial, key size
 - Expiry countdown with severity-based alerts
 - Protocol support: SSLv2/v3, TLS 1.0/1.1/1.2/1.3
 - Weak cipher detection (RC4, DES, 3DES, MD5, EXPORT, NULL)
 - SHA-1 signature detection
 
-### 🔎 HTTP Headers Inspector
+### HTTP Headers Inspector
 - Audits 9 security headers with scoring bar
 - Cookie flag analysis: `HttpOnly`, `Secure`, `SameSite`
 - Server banner and `X-Powered-By` disclosure detection
 - WAF detection via response headers
 
-### 🕵️ Subdomain Finder
+### Subdomain Finder
 - 80+ curated subdomain wordlist
 - Real-time HTTP status verification for each found subdomain
 - **Subdomain takeover** detection (GitHub Pages, Heroku, S3, Netlify, etc.)
 - Certificate Transparency via `crt.sh` for passive discovery
 
-### 🔑 Password Auditor
+### Password Auditor
 - Entropy calculation (bits) per password
 - Crack-time estimates: online (1K/s), offline (1B/s), GPU cluster (1T/s)
 - Pattern detection: keyboard walks, dictionary words, repetition
 - Top-100 common password check
 - Batch file audit mode
 
-### 📋 Log Analyzer
+### Log Analyzer
 - Detects: SQL injection, XSS, path traversal, RCE attempts, scanner/bot UA
 - Brute-force detection (IP-based 401 flood analysis)
 - Top requesting IPs with threat scoring
@@ -182,7 +182,7 @@ grep '\[FINDING\]' reports/full_recon_*.txt
 
 ---
 
-## 💡 Usage Examples
+## Usage Examples
 
 ```bash
 # Interactive menu
@@ -208,7 +208,7 @@ grep '\[FINDING\]' reports/full_recon_*.txt
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
@@ -218,23 +218,23 @@ Contributions are welcome! Please:
 4. Push and open a Pull Request
 
 Ideas for new modules:
-- `firewall_audit.sh` — iptables/nftables rule review
-- `cms_scanner.sh` — WordPress/Joomla CVE checks  
-- `email_spoof_test.sh` — SPF/DKIM/DMARC sender test
-- `cloud_enum.sh` — S3/GCS bucket enumeration
-- `vuln_scanner.sh` — CVE-based version matching
+- `firewall_audit.sh`: iptables/nftables rule review
+- `cms_scanner.sh`: WordPress/Joomla CVE checks  
+- `email_spoof_test.sh`: SPF/DKIM/DMARC sender test
+- `cloud_enum.sh`: S3/GCS bucket enumeration
+- `vuln_scanner.sh`: CVE-based version matching
 
 ---
 
-## 📄 License
+## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License, see [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by [SiteQ8](https://github.com/SiteQ8)**
+**By [SiteQ8](https://github.com/SiteQ8)**
 
 *For educational and authorized security testing only.*
 
